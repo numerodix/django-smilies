@@ -5,7 +5,6 @@ import re
 
 from django import template
 from django.conf import settings
-from django.template.defaultfilters import stringfilter
 from django.utils.safestring import mark_safe
 
 from blog.models import Entry
@@ -48,4 +47,3 @@ def show_smilies(value, autoescape=None):
     return value
 show_smilies.is_safe = True
 show_smilies.needs_autoescape = True
-show_smilies = stringfilter(show_smilies)

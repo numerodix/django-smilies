@@ -1,7 +1,7 @@
 django-smilies
 =============
 
-Smilies for django
+Smilies :) for django :cool:
 
 Install
 -------
@@ -21,7 +21,7 @@ INSTALLED_APPS = (
 How to use
 ----------
 
-```
+```html
 {% load show_smilies %}
 
 <p>{{ article.text|show_smilies }}</p>
